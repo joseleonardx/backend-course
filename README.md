@@ -27,10 +27,10 @@ Marca cada casilla cuando la actividad esté subida con su tag (en GitHub puedes
 
 - [x] [Clase 01](activities/class-01/README.md) — Servidor HTTP con Node.js · `class-01-submission`
 - [x] [Clase 02](activities/class-02/README.md) — API REST con Express · `class-02-submission`
-- [ ] Clase 03 — Diseño de API predecible: recursos, contratos y estado
-- [ ] Clase 04 — Asincronía, concurrencia conceptual y eventos
-- [ ] Clase 05 — Persistencia, SQL y patrón Repository
-- [ ] Clase 06 — Validación, errores y responsabilidades transversales
+- [x] Clase 03 — Diseño de API predecible: recursos, contratos y estado
+- [x] Clase 04 — Asincronía, concurrencia conceptual y eventos
+- [x] Clase 05 — Persistencia, SQL y patrón Repository
+- [x] Clase 06 — Validación, errores y responsabilidades transversales
 - [ ] Clase 07 — Capas, módulos, cohesión y acoplamiento
 - [ ] Clase 08 — Autenticación y autorización
 - [ ] Clase 09 — Pruebas, límites y diagnóstico
