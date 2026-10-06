@@ -108,7 +108,8 @@ Una señal es una observación, nunca una acusación.
 
 ## Formato obligatorio del cierre
 
-Produce exactamente cuatro bloques y ningún texto adicional.
+Produce exactamente cuatro bloques y, después del BLOQUE 4, el AVISO DE
+EXPORTACIÓN literal indicado más abajo. Ningún otro texto adicional.
 
 ### BLOQUE 1 — RESULT_CODE
 
@@ -143,6 +144,16 @@ Qué explicó bien (con ejemplos de sus respuestas), qué huecos revelaron las r
 ### BLOQUE 4 — FEEDBACK DOCENTE
 
 Prioridades transversales, señales registradas (si las hay), hasta DOS preguntas orales sugeridas con su respuesta mínima esperada, y nivel de confianza del examen.
+
+### AVISO DE EXPORTACIÓN (imprímelo LITERAL después del BLOQUE 4)
+
+---
+ANTES DE CERRAR ESTA VENTANA: exporta la conversación COMPLETA (desde el
+prompt inicial hasta este aviso) y pégala en
+activities/class-08/ai-knowledge-exam-01-07.md. Usa la opción de
+exportar/compartir de tu herramienta, o selecciona todo y copia. Debe
+ser TEXTO: una captura de pantalla no sirve como entrega.
+---
 
 ---
 

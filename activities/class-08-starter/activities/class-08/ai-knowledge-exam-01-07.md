@@ -15,7 +15,16 @@ todas las repreguntas y los cuatro bloques del cierre. Sin editar.
 * Fecha: [COMPLETAR]
 * ¿Formato inválido y reparado una vez?: [no / sí / MODEL_FORMAT_FAILURE]
 
-## TRANSCRIPT COMPLETO (desde COMENZAR hasta el BLOQUE 4)
+## Cómo exportar la conversación
+
+Antes de cerrar la ventana del chat: exporta o copia la conversación
+COMPLETA. Gemini: compartir/exportar o selección manual desde el inicio.
+Copilot en VS Code: paleta → "Chat: Export". Copilot web: seleccionar
+todo y copiar. opencode/terminal: `/export`/`/share` o copiar el
+scrollback. En cualquier herramienta, seleccionar todo + copiar siempre
+funciona. Debe ser texto — una captura de pantalla no es entrega.
+
+## TRANSCRIPT COMPLETO (desde COMENZAR hasta el AVISO DE EXPORTACIÓN)
 
 ```text
 [PEGAR AQUÍ LA CONVERSACIÓN ÍNTEGRA — preguntas, respuestas, repreguntas

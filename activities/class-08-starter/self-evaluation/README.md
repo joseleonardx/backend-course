@@ -56,10 +56,24 @@ y con otro prompt: el examen conversacional `ITSU-KNOWLEDGE-01-07-1.0.md`.
    conversación NUEVA (no la de la evidencia) y escribe `COMENZAR`.
 3. **Responde las 7 preguntas y sus repreguntas** con tus palabras. No le
    pidas ayuda al modelo durante el examen — lo registra como señal.
-4. **Guarda el TRANSCRIPT COMPLETO** (preguntas, respuestas, repreguntas
-   y los 4 bloques del cierre) en
+4. **Exporta y guarda el TRANSCRIPT COMPLETO** (preguntas, respuestas,
+   repreguntas y los 4 bloques del cierre) en
    `activities/class-08/ai-knowledge-exam-01-07.md`, sin editar, y
-   responde sus 2 preguntas de metacognición.
+   responde sus 2 preguntas de metacognición. Cómo exportar según tu
+   herramienta:
+   * **Gemini (web)**: menú de compartir/exportar de la conversación si tu
+     versión lo ofrece; si no, sube al inicio del chat, selecciona desde tu
+     primer mensaje hasta el aviso final y copia.
+   * **Copilot en VS Code**: paleta de comandos (Ctrl/Cmd+Shift+P) →
+     "Chat: Export Chat/Session" — o clic derecho en el chat → copiar todo.
+   * **Copilot (web)**: no tiene exportación completa fiable — selecciona
+     toda la conversación y copia.
+   * **opencode / agentes de terminal**: usa su comando de exportar o
+     compartir sesión (`/export` o `/share`) si existe; si no, selecciona y
+     copia el scrollback completo del terminal.
+   * **Cualquier otra**: seleccionar todo + copiar SIEMPRE funciona.
+   Verifica que lo pegado empiece en el prompt/`COMENZAR` y termine en el
+   aviso de exportación. **Captura de pantalla NO sirve**: debe ser texto.
 5. **Formato inválido en el cierre**: pídele UNA vez "reformatea tu cierre
    siguiendo el formato obligatorio, sin reevaluar". Si falla de nuevo:
    marca `MODEL_FORMAT_FAILURE` y continúa.
